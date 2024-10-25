@@ -1,0 +1,28 @@
+.header span:nth-last-of-type(1){
+    animation: Freelancer 12s infinite steps(10);
+}
+.header span:nth-last-of-type(2){
+    animation: Photographer 12s infinite steps(12);
+}
+.header span:nth-last-of-type(3){
+    animation: Designer 12s infinite steps(8);
+}
+.header span:nth-last-of-type(4){
+    animation: Developer 12s infinite steps(9);
+}
+@keyframes Freelancer {
+    0%, 12.5%, 25%, 50%, 75%, 100% { width: 0px; }
+    6.25% { width: calc(10 * 24.47px); }
+}
+@keyframes Photographer {
+    0%, 25%, 50%, 75%, 100% { width: 0px; }
+    37.5% { width: calc(12 * 24.47px); }
+}
+@keyframes Designer {
+    0%, 25%, 50%, 75%, 100% { width: 0px; }
+    62.5% { width: calc(8 * 24.47px); }
+}
+@keyframes Developer {
+    0%, 25%, 50%, 75%, 100% { width: 0px; }
+    87.5% { width: calc(9 * 24.47px); }
+}
